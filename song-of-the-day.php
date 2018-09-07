@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
     die;
 }
 
-final class SOTD_init {
+class SOTD_init {
 
     function __construct() {
 
