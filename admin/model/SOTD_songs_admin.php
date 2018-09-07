@@ -26,11 +26,4 @@ class SOTD_songs_admin {
 
 		return $result;
 	}
-
-	public function random() {
-		$sql = "SELECT * FROM " . $this->table . " ORDER BY RAND() LIMIT 1";
-		$result = $this->wpdb->get_results($sql);
-
-		return $result;
-	}
 }

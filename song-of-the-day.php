@@ -18,10 +18,6 @@ if ( ! defined( 'WPINC' ) ) {
 
 class SOTD_init {
 
-    function __construct() {
-
-    }
-
     public function load() {
         $this->pluginConstants();
         $this->includes();
